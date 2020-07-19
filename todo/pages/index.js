@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import Link from "next/link";
 
 // once you get notes from getStatic props comment this
 const notes = [
@@ -22,11 +22,13 @@ function Home() {
 
         <div className="grid">
           {notes?.map((note) => (
-            <div key={note.id}>
-              <a className="card">
-                <h3>{note.title} &rarr;</h3>
-                <p>{note.description}</p>
-              </a>
+            <div className="card" key={note.id}>
+              <Link href={`/${note.id}`}>
+                <a>
+                  <h3>{note.title} &rarr;</h3>
+                </a>
+              </Link>
+              <p>{note.description}</p>
             </div>
           ))}
         </div>

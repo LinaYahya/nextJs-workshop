@@ -158,6 +158,10 @@ code {
   font-size: 1.5rem;
 }
 
+.card h3:hover {
+  color: rgb(168, 60, 60);
+} 
+
 .card p {
   margin: 0;
   font-size: 1.25rem;
