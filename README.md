@@ -17,6 +17,7 @@ We’d like to create a note App, we'll view our notes, add new note, and view s
 4. pgcli then \i path ofcreateDB.sql and build.sql
 5. pgcli DB_URL from .env then \i path of build.sql
 5. npm run dev
-6. start from index.js
+6. start from pages/index.js , You can notice that notes are static data try to fetch it by following comments.
+7. When you finished go to pages/[id] , also follow the comments.
 
 ##### Have fun time :wink:
