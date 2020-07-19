@@ -1,4 +1,4 @@
-CREATE DATABASE notes;
-CREATE USER noteUser
+CREATE DATABASE newNote;
+CREATE USER newNoteUser
 WITH superuser password '123abc';
-ALTER DATABASE notes OWNER TO noteUser;
+ALTER DATABASE newNote OWNER TO newNoteUser;
