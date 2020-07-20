@@ -37,7 +37,8 @@ function Home() {
   );
 }
 
-// use getStaticProps to fetch notes from api/todo Be careful how to return props as notes
+// use getStaticProps to fetch notes from query Be careful how to return props as notes then comment notes above
+
 
 // export async function getStaticProps() {
 //   // your code here
