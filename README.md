@@ -12,12 +12,12 @@ We’ve explained that Next.js has two forms of pre-rendering: Static Generation
 We’d like to create a note App, we'll view our notes, add new note, and view specific note.
 
 1. Clone this repo
-2. cd todo && npm i
-3. check files
-4. pgcli then \i path ofcreateDB.sql
-5. pgcli DB_URL from .env then \i path of build.sql
-5. npm run dev
-6. start from pages/index.js , You can notice that notes are static data try to fetch it by following comments.
-7. When you finished go to pages/[id] , also follow the comments.
+2. check files
+3. pgcli then \i path ofcreateDB.sql
+4. pgcli DB_URL from .env then \i path of build.sql
+5. cd todo && npm i
+6. npm run dev
+7. start from pages/index.js , You can notice that notes are static data try to fetch it by following comments.
+8. When you finished go to pages/[id] , also follow the comments.
 
 ##### Have fun time :wink:
