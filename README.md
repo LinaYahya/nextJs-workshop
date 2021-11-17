@@ -5,6 +5,7 @@ We’ve explained that Next.js has two forms of pre-rendering: Static Generation
 
 - [getStaticProps](https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation) (Static Generation): Fetch data at build time.
 - [getStaticPaths](https://nextjs.org/docs/basic-features/data-fetching#getstaticpaths-static-generation) (Static Generation): Specify dynamic routes to pre-render based on data.
+- [Incremental Static Regeneration](https://nextjs.org/docs/basic-features/data-fetching#incremental-static-regeneration)
 - [getServerSideProps](https://nextjs.org/docs/basic-features/data-fetching#getserversideprops-server-side-rendering) (Server-side Rendering): Fetch data on each request .
 
 
