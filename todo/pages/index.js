@@ -37,7 +37,10 @@ function Home() {
   );
 }
 
-// use getStaticProps to fetch notes from query Be careful how to return props as notes then comment notes above
+// we'll build our pages with getStaticProps and getServerSideProps, What is the difference?!
+// Once all work is done, build your app and run start, then add new note, try to figure out what is happening
+
+// use getStaticProps to fetch notes from query(check queries in database/queries) Be careful how to return props as notes then comment notes above
 
 
 // export async function getStaticProps() {
